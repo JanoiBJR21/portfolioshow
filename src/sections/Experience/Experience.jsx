@@ -88,16 +88,16 @@ const Experience = () => {
       </div>
       <div
         className={`grid grid-cols-[30%_70%] rounded-md px-2 py-6 transition-all ${
-          isMouseEnter["id1"] ? " bg-zinc-900" : ""
+          isMouseEnter["id2"] ? " bg-zinc-900" : ""
         }`}
-        onMouseEnter={() => setIsMouseEnter({ id1: true })}
-        onMouseLeave={() => setIsMouseEnter({ id1: false })}
+        onMouseEnter={() => setIsMouseEnter({ id2: true })}
+        onMouseLeave={() => setIsMouseEnter({ id2: false })}
       >
         <div>
           <div>
             <span
               className={`text-sm ${
-                isMouseEnter["id1"] ? "text-primaryAccent" : ""
+                isMouseEnter["id2"] ? "text-primaryAccent" : ""
               }`}
             >
               2023-2024
@@ -115,7 +115,7 @@ const Experience = () => {
           <a href="https://janoibjr21.github.io/portfolioshow/" target="_blank">
             <div
               className={`text-primaryAccent ${
-                isMouseEnter["id1"] ? "text-primaryTitle" : ""
+                isMouseEnter["id2"] ? "text-primaryTitle" : ""
               }`}
             >
               Portfolio of Apichat Wongtala
@@ -123,7 +123,7 @@ const Experience = () => {
           </a>
           <div
             className={`flex gap-4 items-end text-xl ${
-              isMouseEnter["id1"] ? "text-primaryTitle" : ""
+              isMouseEnter["id2"] ? "text-primaryTitle" : ""
             }`}
           >
             <a
@@ -144,7 +144,7 @@ const Experience = () => {
             <a href="https://react.dev/" target="_blank">
               <div
                 className={`bg-zinc-800 px-2 py-1 rounded-md ${
-                  isMouseEnter["id1"] ? "text-primaryTitle" : ""
+                  isMouseEnter["id2"] ? "text-primaryTitle" : ""
                 }`}
               >
                 React
@@ -153,7 +153,7 @@ const Experience = () => {
             <a href="https://tailwindcss.com/" target="_blank">
               <div
                 className={`bg-zinc-800 px-2 py-1 rounded-md ${
-                  isMouseEnter["id1"] ? "text-primaryTitle" : ""
+                  isMouseEnter["id2"] ? "text-primaryTitle" : ""
                 }`}
               >
                 TailwindCSS
@@ -162,6 +162,8 @@ const Experience = () => {
           </div>
         </div>
       </div>
+
+
     </div>
   );
 };
