@@ -1,15 +1,16 @@
 import React from "react";
+import About from "../About/About";
 
 const RightSection = () => {
   return (
-    <div>
-      <div>About</div>
-      <div className="mb-96">Experience</div>
-      <div className="mb-96">Experience</div>
-      <div className="mb-96">Experience</div>
-      <div className="mb-96">Experience</div>
-      <div className="mb-96">Experience</div>
-      <div className="mb-96">Experience</div>
+    <div className="grid gap-y-4">
+      <About/>
+      <div>Experience</div>
+      <div>Experience</div>
+      <div>Experience</div>
+      <div>Experience</div>
+      <div>Experience</div>
+      <div>Experience</div>
     </div>
   );
 };
