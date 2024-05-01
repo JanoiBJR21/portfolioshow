@@ -9,3 +9,6 @@
         @apply text-primaryBase;
     }
 }
+/* body{
+    transition: all 0.5s ease;
+} */
