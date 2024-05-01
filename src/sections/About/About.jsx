@@ -3,8 +3,8 @@ import { dataAbout } from '../../contents/ContentAbout'
 
 const About = () => {
   return (
-    <div>
-      <div>{dataAbout.title}</div>
+    <div className='space-y-4'>
+      <div className='text-primaryAccent font-medium'>{dataAbout.title}</div>
       <div>{dataAbout.description}</div>
     </div>
   )
