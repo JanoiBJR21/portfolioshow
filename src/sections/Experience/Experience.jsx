@@ -2,6 +2,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import imgExp1 from "../../assets/exp_site.png";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Experience = () => {
   const [isMouseEnter, setIsMouseEnter] = useState({});
@@ -43,6 +44,12 @@ const Experience = () => {
               }`}
             >
               Portfolio of Apichat Wongtala
+              <FontAwesomeIcon
+                icon={faArrowRight}
+                className={`text-xs -rotate-45 duration-300 ease-out ${
+                  isMouseEnter["id1"] ? "translate-x-1 -translate-y-1" : ""
+                }`}
+              />
             </div>
           </a>
           <div
@@ -64,25 +71,27 @@ const Experience = () => {
             · A simple and minimalist portfolio for developers built with React
             and TailwindCSS, designed to be clean and fast.
           </div>
-          <div className="flex gap-4 text-sm">
-            <a href="https://react.dev/" target="_blank">
-              <div
-                className={`bg-zinc-800 px-2 py-1 rounded-md ${
-                  isMouseEnter["id1"] ? "text-primaryTitle" : ""
-                }`}
-              >
-                React
-              </div>
-            </a>
-            <a href="https://tailwindcss.com/" target="_blank">
-              <div
-                className={`bg-zinc-800 px-2 py-1 rounded-md ${
-                  isMouseEnter["id1"] ? "text-primaryTitle" : ""
-                }`}
-              >
-                TailwindCSS
-              </div>
-            </a>
+          <div>
+            <div className="flex gap-4 text-sm">
+              <a href="https://react.dev/" target="_blank">
+                <div
+                  className={`bg-zinc-800 px-2 py-1 rounded-md ${
+                    isMouseEnter["id1"] ? "text-primaryTitle" : ""
+                  }`}
+                >
+                  React
+                </div>
+              </a>
+              <a href="https://tailwindcss.com/" target="_blank">
+                <div
+                  className={`bg-zinc-800 px-2 py-1 rounded-md ${
+                    isMouseEnter["id1"] ? "text-primaryTitle" : ""
+                  }`}
+                >
+                  TailwindCSS
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -119,6 +128,12 @@ const Experience = () => {
               }`}
             >
               Portfolio of Apichat Wongtala
+              <FontAwesomeIcon
+                icon={faArrowRight}
+                className={`text-xs -rotate-45 duration-300 ease-out ${
+                  isMouseEnter["id2"] ? "translate-x-1 -translate-y-1" : ""
+                }`}
+              />
             </div>
           </a>
           <div
@@ -140,30 +155,30 @@ const Experience = () => {
             · A simple and minimalist portfolio for developers built with React
             and TailwindCSS, designed to be clean and fast.
           </div>
-          <div className="flex gap-4 text-sm">
-            <a href="https://react.dev/" target="_blank">
-              <div
-                className={`bg-zinc-800 px-2 py-1 rounded-md ${
-                  isMouseEnter["id2"] ? "text-primaryTitle" : ""
-                }`}
-              >
-                React
-              </div>
-            </a>
-            <a href="https://tailwindcss.com/" target="_blank">
-              <div
-                className={`bg-zinc-800 px-2 py-1 rounded-md ${
-                  isMouseEnter["id2"] ? "text-primaryTitle" : ""
-                }`}
-              >
-                TailwindCSS
-              </div>
-            </a>
+          <div>
+            <div className="flex gap-4 text-sm">
+              <a href="https://react.dev/" target="_blank">
+                <div
+                  className={`bg-zinc-800 px-2 py-1 rounded-md ${
+                    isMouseEnter["id2"] ? "text-primaryTitle" : ""
+                  }`}
+                >
+                  React
+                </div>
+              </a>
+              <a href="https://tailwindcss.com/" target="_blank">
+                <div
+                  className={`bg-zinc-800 px-2 py-1 rounded-md ${
+                    isMouseEnter["id2"] ? "text-primaryTitle" : ""
+                  }`}
+                >
+                  TailwindCSS
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-
-
     </div>
   );
 };
